@@ -396,3 +396,232 @@ body {
     height: 100%;
     min-width: 140px;
 }
+.newsletter-form button:hover {
+    background: #e65c13;
+}
+.footer {
+    background: #fff;
+    padding: 48px 0 0 0;
+}
+.footer-flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 0 0 32px 0;
+}
+.footer-left img {
+    height: 44px;
+    margin-bottom: 16px;
+}
+.footer-left p {
+    color: #888;
+    font-size: 1.13rem;
+    max-width: 260px;
+}
+.footer-links {
+    display: flex;
+    gap: 60px;
+}
+.footer-links h4 {
+    margin: 0 0 12px 0;
+    font-size: 1.15rem;
+    color: #222;
+}
+.footer-links ul {
+    list-style: none;
+    line-height: 40px;
+    padding: 0;
+    margin: 0;
+}
+.footer-links li {
+    color: #888;
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+}
+.footer-social {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-top: 12px;
+}
+.footer-social img {
+    width: 32px;
+    height: 32px;
+}
+@media (max-width: 1024px) {
+    .plant-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 28px 18px;
+    }
+    .deals-grid-custom {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+    .deals-left {
+        flex-direction: row;
+        gap: 18px;
+        height: auto;
+    }
+    .deal-card.small {
+        width: 48%;
+        min-width: 140px;
+        height: 100px;
+    }
+    .deal-card.large {
+        width: 100%;
+        height: 180px;
+    }
+    .trusted-flex {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+    }
+    .trusted-img-wrapper {
+        width: 100%;
+        height: 260px;
+        min-width: 0;
+        max-width: 100%;
+    }
+    .trusted-badge-overlay {
+        width: 90px;
+        top: -32px;
+    }
+    .trusted-info h2 {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 700px) {
+    .container {
+        width: 98%;
+    }
+    .hero-flex {
+        flex-direction: column;
+        gap: 24px;
+    }
+    .plant-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 22px 12px;
+        margin-bottom: 24px;
+    }
+    .plant-card img {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 10px;
+    }
+    .plant-card {
+        padding: 16px 6px 16px 6px;
+    }
+    .plants h2 {
+        font-size: 2rem;
+    }
+    .plants-desc {
+        font-size: 0.98rem;
+        margin-bottom: 18px;
+    }
+}
+@media (max-width: 900px) {
+    .newsletter-form {
+        width: 98vw;
+        max-width: 98vw;
+    }
+    .footer-flex {
+        flex-direction: column;
+        gap: 32px;
+        align-items: flex-start;
+    }
+    .footer-links {
+        gap: 32px;
+    }
+}
+@media (max-width: 600px) {
+    .nav{
+        display: none;
+    }
+    .trusted-badge-overlay{
+        display: none;
+    }
+    .newsletter-bg {
+        height: 300px;
+    }
+    .newsletter-content h2 {
+        font-size: 1.3rem;
+        margin-bottom: 16px;
+    }
+    .newsletter-form {
+        flex-direction: row;
+        width: 98vw;
+        max-width: 98vw;
+        box-shadow: none;
+    }
+    .newsletter-form input[type="email"] {
+        padding: 10px 12px;
+        font-size: 1rem;
+    }
+    .newsletter-form button {
+        padding: 10px 0;
+        min-width: 100px;
+        font-size: 1rem;
+    }
+    .plant-card img {
+        width: 290px;
+        height: 290px;
+    }
+    .footer-flex {
+        gap: 18px;
+        padding: 0 0 18px 0;
+    }
+    .footer-left img {
+        height: 32px;
+    }
+    .footer-left p {
+        font-size: 0.98rem;
+        max-width: 98vw;
+    }
+    .footer-links {
+        flex-direction: column;
+        gap: 12px;
+    }
+    .footer-links h4 {
+        font-size: 1rem;
+    }
+    .footer-links li {
+        font-size: 0.95rem;
+        margin-bottom: 6px;
+    }
+    .footer-social img {
+        width: 22px;
+        height: 22px;
+    }
+    .plant-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px 6px;
+        margin-bottom: 12px;
+    }
+    .plant-card {
+        padding: 8px 2px 8px 2px;
+    }
+    .plant-card img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 6px;
+    }
+    .plant-name {
+        font-size: 0.85rem;
+    }
+    .plant-price {
+        font-size: 0.95rem;
+    }
+    .add-cart {
+        font-size: 0.85rem;
+        padding: 7px 0;
+        margin-top: 4px;
+    }
+    .plants h2 {
+        font-size: 1.1rem;
+    }
+    .plants-desc {
+        font-size: 0.85rem;
+        margin-bottom: 8px;
+    }
+} 
