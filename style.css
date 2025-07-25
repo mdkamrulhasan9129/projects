@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f7f9fc;
+    color: #222;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    background: #f7f9fc;
+    padding: 24px 0 0 0;
+}
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-flex-right {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.logo img {
+    height: 50px;
+}
