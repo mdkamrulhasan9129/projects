@@ -222,3 +222,177 @@ body {
 }
 .trusted-info ul li {
     margin-bottom: 12px;
+}
+.deals {
+    background: #f4f6fb;
+    padding: 48px 0 0 0;
+    margin-bottom: 80px;
+}
+.deals h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+}
+.deals h2 .orange {
+    color: #ff6d1f;
+    font-weight: 700;
+}
+.deals-desc {
+    text-align: center;
+    color: #888;
+    margin-bottom: 36px;
+    font-size: 1.08rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}
+.deals-grid-custom {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 32px;
+    align-items: stretch;
+}
+.deals-left {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 100%;
+}
+.deals-right {
+    display: flex;
+    align-items: stretch;
+    height: 100%;
+}
+.deal-card {
+    position: relative;
+    border-radius: 18px;
+    overflow: hidden;
+    background: #fff;
+    display: flex;
+    align-items: stretch;
+    min-height: 200px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+.deal-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    min-height: 120px;
+}
+.deal-card.small {
+    height: 120px;
+    width: 100%;
+}
+.deal-card.large {
+    height: 424px;
+    width: 100%;
+}
+.deal-overlay-custom {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(0,0,0,0.48) 0%, rgba(0,0,0,0.18) 100%);
+    text-align: center;
+    padding: 0;
+}
+.deal-title {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.18);
+    width: 100%;
+    display: block;
+}
+.deal-title.large {
+    font-size: 2.1rem;
+    font-weight: 700;
+}
+.deal-btn {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 3px;
+    margin-top: 6px;
+    display: inline-block;
+}
+.newsletter {
+    margin-top: 0;
+    background: #f4f6fb;
+    padding: 0;
+}
+.newsletter-bg {
+    position: relative;
+    width: 100%;
+    height: 570px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.newsletter-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.newsletter-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.28);
+}
+.newsletter-content h2 {
+    color: #fff;
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+.newsletter-form {
+    display: flex;
+    width: 750px;
+    max-width: 90vw;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+}
+.newsletter-form input[type="email"] {
+    padding: 16px 18px;
+    border: none;
+    border-radius: 0;
+    font-size: 1.1rem;
+    outline: none;
+    flex: 1;
+    min-width: 0;
+}
+.newsletter-form button {
+    padding: 0 32px;
+    border: none;
+    border-radius: 0;
+    background: #ff6d1f;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s;
+    height: 100%;
+    min-width: 140px;
+}
